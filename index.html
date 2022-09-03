@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my website</title>
+        <style>
+
+          body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+section h4 {
+    font-size: 1em;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('field.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('beach.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('new.jpg');
+}
+#More {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('nature.jpg'); }
+
+   </style>
+    </head>
+
+    <body>
+        <header>
+            <img src="dp.JPG" class="profile-img">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#More">More</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                    <img src="dp.JPG" class="profile-img">
+                    <h1>Hi, I'm Fasalu Rahman.</h1>
+                    <h3 style=" color:maroon; text-shadow:2px 2px 2px black;"><i>Web Devoloper...</i></h3>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2>About me</h2>
+                    <p>I'm a really awesome. Every day I wake up, munch on some grass, do some works and then go back to sleep.</p>
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>SSLC, 2015</li>
+                        <li>Plus Two,2015-17 </li>
+                        <li>Bachelor of computer application, 2018-21</li>
+                        <li>Degree certification from the calicut university,2021</li>
+                        <li>I coded a personal website, 2022</li>
+                    </ul><br>
+                  </div>
+            </section>
+                     <section id="More">
+                <div class="section-inner">
+                    <h2> Skills</h2>
+                    <h3>Specializations</h3>
+                    <ul>
+                        <li>social media management</li>
+                        <li>good communication skill</li>
+                        <li>presentation and leadership skill</li>
+                        <li>proficient in microsoft office</li>
+                        <li>interactive nature</li>
+                     </ul>
+                        <h3>Work Experience<br><small>shop keeper</small> </h3>
+                        
+                    <ul>
+                        <li>Keep Records</li>
+                        <li>Check Sales and Restock</li>
+                        <li>Promote New Products or Specials</li>
+                        <li>Cash Handling</li>
+                    </ul>
+                  
+                     <h3><small>Data Entry</small></h3>
+                    <ul>
+                        <li>Administrative Support</li>
+                        <li>Acount Records Management</li>
+                        <li>Communicating with customers via chat,call and email</li>
+                        <li>Processed and compiled customer information into the database</li>
+                    </ul>
+                     
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>Contact me</h2>
+                    <p>
+                       <b> Location:</b><br>Calicut,Kerala<br></p>
+                        <p> <b> Call:</b><br>
+                          8891605553<br></p>
+                    <p>You can find me on:</p>
+                    <ul>
+                        
+                        <li><a href="https://www.facebook.com/faslu.rahman.965">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/fslu_fazz/">Instagram</a></li>
+                    </ul>
+                    <p>Or, you can <a href="mailto:faslufazz007@gmail.com">send me an email</a>.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright fazz
